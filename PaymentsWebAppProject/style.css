@@ -1,47 +1,71 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
 }
-body{
-    background-color: aliceblue;
+
+body {
+    background-image: url('backgroundimage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-colr: aliceblue;
     font-size: large;
 }
-.title{
+
+.title {
     background-color: #0a78ab;
     color: #fff;
     text-align: center;
 }
-.container{
+
+.container {
     display: block;
     justify-content: center;
     text-align: center;
     margin: 20% 10%;
+    color: #fff;
 }
-.loginInputs input, .registerInputs input{
-	margin:20px;
+
+.loginInputs input,
+.registerInputs input {
+    margin: 20px;
 }
-input{
-	padding:10px;
-	width:70%;
-	border-style:inset;
-	border-radius:30px;
+
+.row {
+    display: flex;
 }
-.subtn{
+
+.col {
+    flex: 50%;
+}
+
+input {
+    padding: 10px;
+    width: 70%;
+    border-style: inset;
+    border-radius: 30px;
+}
+
+.subtn {
     border-radius: 10px 20px;
-	width:40%;
+    width: 40%;
     background-color: blue;
     color: #fff;
 }
-form{
-	margin:0 30%;
-	border: 2px solid #0a78ab;
-	border-radius: 10px;
+
+form {
+    margin: 0 30%;
+    border: 2px solid #0a78ab;
+    border-radius: 10px;
 }
-.passage{
+
+.passage {
     font-size: small;
     margin-bottom: 10px;
 }
-.container form{
+
+.container form {
     margin: 0 20%;
 }

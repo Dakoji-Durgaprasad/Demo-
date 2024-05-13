@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <div class="dashboard-title">
+    <div class="dashboard-title nav-bar">
         <h1>Payments Web App</h1>
         <div class="title-align">
             <h2>Welcome,</h2>
@@ -41,7 +41,7 @@
                     <td>
                         <p>Bank Name : SBI</p>
                         <p>Bank Account No : 1231231454544</p>
-                        <p>Balance : 1000</p>
+                        <p>Balance : <span onclick="showBal()" id="showbtn">Show</span><span id="bal">1000</span></p>
                         <p>IFSC Code : SBI0023</p>
                         <div class="editOptions">
                             <form action="" method="">
@@ -119,6 +119,13 @@
             </form>
         </div>
     </div>
+
+    <script>
+        function showBal() {
+            document.getElementById('bal').style.display = 'inline';
+            document.getElementById('showbtn').style.display = 'none';
+        }
+    </script>
 </body>
 
 </html>

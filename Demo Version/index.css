@@ -3,10 +3,12 @@
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+body{
+    
+}
 /*------------------- Header part Styles -------------------------*/
 .header{
-    background-color: #0a78ab;
+    background-color: #00aeff;
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -56,10 +58,10 @@ span{
     border-radius: 9px;
     height: 100%;
     width: max-content;
-    background-color: #79c3e6;
+    background-color: #04acf9;
     margin: 10px;
 }
-.card .img{
+.card img{
     border: 2px solid black;
     background-color: #fff;
     border-radius: 50%;

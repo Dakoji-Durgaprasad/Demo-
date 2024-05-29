@@ -1,0 +1,46 @@
+
+/* Header part Styles */
+.header{
+    background-color: #0a78ab;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.logo{
+    background-color: #fff;
+    font-size: 50px;
+    color: #000;
+    border-radius: 30%;
+    padding: 3px 6px;
+    margin: auto 5px;
+}
+span{
+    color:#0a78ab;
+}
+.nav-bar ul{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    color: #000;
+    border-radius: 9%;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+.nav-bar li {
+    padding: 10px 0px;
+    list-style-type: none;
+    
+}
+.nav-bar a{
+   
+    padding-right: 5px;
+    font-size: large;
+    color: #000;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.card, .card-body{
+    margin: 5px;
+}
